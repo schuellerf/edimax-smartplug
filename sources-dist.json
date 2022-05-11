@@ -1,0 +1,47 @@
+{ "edimax-smartplug":
+  {
+    "name": "edimax-smartplug",
+    "version": "0.0.24",
+    "description": "Node module to communicate with Edimax Smart Plugs",
+    "author": {
+      "name": "Marcus Wittig",
+      "url": "https://github.com/mwittig/edimax-smartplug"
+    },
+    "contributors": [
+      {
+        "name": "Markus Plessing",
+        "url": "https://github.com/mplessing"
+      },
+      {
+        "name": "Matt Galloway",
+        "email": "matt@galloway.me.uk",
+        "url": "http://www.galloway.me.uk/"
+      }
+    ],
+    "main": "index",
+    "homepage": "https://github.com/mwittig/edimax-smartplug",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mwittig/edimax-smartplug"
+    },
+    "bugs": {
+      "url": "https://github.com/mwittig/edimax-smartplug/issues"
+    },
+    "keywords": [
+      "SmartHome",
+      "SmartPlug",
+      "Edimax",
+      "Metering"
+    ],
+    "dependencies": {
+      "bluebird": "^3.5.3",
+      "es6-object-assign": "^1.1.0",
+      "http-digest-client": "git+https://github.com/mwittig/node-http-digest-client.git#b8551fe1a27e364d87b90f6a22117232f7683f71",
+      "lodash.isundefined": "^3.0.1",
+      "lodash.parseint": "^4.0.2",
+      "xmldom": "^0.1.27",
+      "xpath": "0.0.27"
+    }
+  }
+}
